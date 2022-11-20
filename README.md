@@ -1,4 +1,4 @@
-# LLVM Obfuscator for Android
+# LLVM Obfuscator for Android NDK
 
 I only support some versions that I want to apply.
 
