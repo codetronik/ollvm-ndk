@@ -1,3 +1,5 @@
+LLVM Obfuscator for Android NDK r23c
+
 ## How to download and build
 
 Build is only available on Linux. (tested on Ubuntu 22.04.1 LTS)
