@@ -32,3 +32,6 @@ $ python toolchain/llvm_android/build.py --no-build=linux // windows binary
 2. rename the directory on `android-ndk-r[version]` to `android-ndk-r[version]_org`
 3. download & extract [`android-ndk-r23c-windows`](https://dl.google.com/android/repository/android-ndk-r23c-windows.zip) and rename the directory `android-ndk-r23c` to `android-ndk-r[version]`
 4. copy `ollvm-ndk/out/windows-x86-64-install/bin/clang` to the visual studio NDK directory `C:/Microsoft/AndroidNDK/android-ndk-r[version]/toolchains/llvm/prebuilt/windows-x86_64/bin/`
+
+## Compile option example
+``-mllvm -sub -mllvm -sub_loop=1 -mllvm -fla -mllvm -split -mllvm -split_num=5 -mllvm -bcf -mllvm -bcf_loop=2 -mllvm -bcf_prob=100 -mllvm -sobf`` 
