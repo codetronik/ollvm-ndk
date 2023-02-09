@@ -34,7 +34,9 @@ $ python toolchain/llvm_android/build.py --no-build=linux // windows binary
 
 ## Troubleshooting Ubuntu Build
 "Unknown endianness of the compilation platform, check this header aes_encrypt.h"
+
 It seems that the current system is not recognized. 
+
 Open the `llvm/include/llvm/Transforms/Obfuscation/CryptoUtils.h`, delete lines 32 to 84 and add `#ifdef ENDIAN_LITTLE`
 
 ## Compile option example
