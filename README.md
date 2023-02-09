@@ -37,7 +37,7 @@ $ python toolchain/llvm_android/build.py --no-build=linux // windows binary
 
 It seems that the current system is not recognized. 
 
-Open the `llvm/include/llvm/Transforms/Obfuscation/CryptoUtils.h`, delete lines 32 to 84 and add `#ifdef ENDIAN_LITTLE`
+Open the `llvm/include/llvm/Transforms/Obfuscation/CryptoUtils.h`, delete lines 32 to 84 and add `#define ENDIAN_LITTLE`
 
 ## Compile option example
 ``-mllvm -sub -mllvm -sub_loop=1 -mllvm -fla -mllvm -split -mllvm -split_num=5 -mllvm -bcf -mllvm -bcf_loop=2 -mllvm -bcf_prob=100 -mllvm -sobf`` 
