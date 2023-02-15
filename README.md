@@ -18,8 +18,8 @@ copy & overwrite `/llvm` from this repository to `/toolchain/llvm-project/llvm`
 $ curl -LO http://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
 $ sudo dpkg -i libffi6_3.2.1-8_amd64.deb
 $ sudo apt-get install bison
-$ python toolchain/llvm_android/build.py --no-build=windows // linux binary
-$ python toolchain/llvm_android/build.py --no-build=linux // windows binary
+$ python toolchain/llvm_android/build.py --no-build=windows --skip-package // linux binary
+$ python toolchain/llvm_android/build.py --no-build=linux --skip-package // windows binary
 ```
 
 ## Apply to Android NDK r23c
