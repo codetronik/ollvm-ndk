@@ -24,7 +24,7 @@ $ python toolchain/llvm_android/build.py --no-build=linux --skip-package // wind
 
 ## Apply to Android NDK r23c
 1. download & extract [`android-ndk-r23c-windows`](https://dl.google.com/android/repository/android-ndk-r23c-windows.zip) or [`android-ndk-r23c-linux`](https://dl.google.com/android/repository/android-ndk-r23c-linux.zip)
-2. copy `ollvm-ndk/out/[os]-install/bin/clang` to the NDK directory `/toolchains/llvm/prebuilt/[os]/bin/`
+2. copy `ollvm-ndk/out/stage2-install/bin/clang` to the NDK directory `/toolchains/llvm/prebuilt/[os]/bin/`
 
 ## Apply to Visual Studio
 1. cd C:/Microsoft/AndroidNDK
