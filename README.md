@@ -6,6 +6,8 @@ Build is only available on Linux. (tested on Ubuntu 22.04.1 LTS)
 
 ```sh
 $ sudo apt install repo
+$ git config --global user.name "Your Name"
+$ git config --global user.email "you@example.com"
 $ repo init -u https://android.googlesource.com/platform/manifest -b llvm-toolchain
 $ cp manifest_8481493.xml .repo/manifests // Download xml from this repository
 $ repo init -m manifest_8481493.xml
